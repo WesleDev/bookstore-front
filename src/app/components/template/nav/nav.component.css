@@ -1,0 +1,9 @@
+.container {
+  height: 85%;
+  background: #303030;
+  color: #fff;
+}
+
+i { 
+  padding-right: .6rem;
+}

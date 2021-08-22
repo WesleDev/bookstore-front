@@ -1,0 +1,20 @@
+img { 
+  height: 3rem;
+}
+
+.header {
+  justify-content: center;
+  height: 10%;
+  background: rgba(0, 0, 0, 0.842);
+  color: #fff;
+}
+
+span {
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  padding-left: 1rem;
+  font-size: 1.5rem;
+}
