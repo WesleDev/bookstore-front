@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { LivroReadAllComponent } from './components/views/livro/livro-read-all/livro-read-all.component';
 import { CategoriaCreateComponent } from './components/views/categoria/categoria-create/categoria-create.component';
 import { CategoriaDeleteComponent } from './components/views/categoria/categoria-delete/categoria-delete.component';
 import { CategoriaReadComponent } from './components/views/categoria/categoria-read/categoria-read.component';
@@ -26,6 +27,10 @@ const routes: Routes = [
   {
     path: 'categorias/update/:id',
     component: CategoriaUpdateComponent,
+  },
+  {
+    path: 'categorias/:id_cat/livros',
+    component: LivroReadAllComponent,
   },
 ];
 
